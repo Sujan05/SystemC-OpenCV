@@ -10,7 +10,7 @@ The following figure shows the structure of the image processing system.
 
 The initial image frame is stored in memory_0 (input module). The processing module reads the image frame from memory_0 on a pixel-by-pixel basis (24 bits RGB data). The processing module will then apply a convolution filter on the image and send it to memory_1 (output module), which will store the processed image. The processing module is modular, and it can be replaced by other modules performing a different computation without affecting the rest of the design, which makes the use of interfaces ideal.
 
-As processing modules, you will implement the following two modules:
+As processing modules, the following two modules have been implemented:
 
 1. Median Filter
 2. Sobel Edge Detector
